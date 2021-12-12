@@ -1,0 +1,82 @@
+<!-- Profile needs to be either in Navigation or near it... -->
+<!-- Logout would be on this page etc. -->
+<div class="nav-wrapper">
+  <div class="profile">
+    Profile
+    <!-- mock link? -->
+    <a onclick="logout()">Logout</a>
+    <!-- This is a placeholder I believe this would be something through firebase.. grabbing prof pic etc. -->
+    <!-- Needs Logout button need to figure out how to style seperate -->
+    <!-- <button id="logout" onclick="logout()">Logout</button> -->
+  </div>
+  <nav>
+    <!-- Needs to be a Checkmark PNG on the Homepage link to indicate user is at that page -->
+    <div class="a-wrapper">
+      <div onclick="navLoadPage('home')"><p class="nav-text">Homepage</p></div>
+      <!-- Needs to be spaced out more... -->
+      <!-- <div class="check-wrap">
+                    <img class="checkpng" src="assets/check-mark.png" alt="">
+                </div> -->
+    </div>
+    <div class="a-wrapper">
+      <div onclick="navLoadPage('caloriecount')">
+        <p class="nav-text">Calorie Counter</p>
+      </div>
+    </div>
+    <!-- <div class="a-wrapper">
+      <div onclick="navLoadPage('mealplan')">
+        <p class="nav-text">Meal Planner</p>
+      </div>
+    </div> -->
+  </nav>
+</div>
+<!-- Putting the log title in it's own Div -->
+
+<div class="calorie-log" style="border: thin solid white">
+  <div class="calorie-log-txt">
+    <p>Calorie Log For The Week</p>
+    <div class="weekdays">
+      <div class="day">
+        <p>Monday</p>
+        <div class="mock-bar-one"></div>
+      </div>
+      <div class="day">
+        <p>Tuesday</p>
+        <div class="mock-bar-two"></div>
+      </div>
+      <div class="day">
+        <p>Wednesday</p>
+        <div class="mock-bar-three"></div>
+      </div>
+      <div class="day">
+        <p>Thursday</p>
+        <div class="mock-bar-four"></div>
+      </div>
+      <div class="day">
+        <p>Friday</p>
+        <div class="mock-bar-five"></div>
+      </div>
+      <div class="day">
+        <p>Saturday</p>
+        <div class="mock-bar-six"></div>
+      </div>
+      <div class="day">
+        <p>Sunday</p>
+        <div class="mock-bar-seven"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Hopefully can get this to work... -->
+<div class="recipe-rec-title">Recipe Recommendations:</div>
+
+<div class="recipe-rec-wrap">
+  <div class="recipe-rec-one"></div>
+  <div class="recipe-rec-two"></div>
+  <div class="recipe-rec-three"></div>
+</div>
+
+<div class="weightloss-photo">
+  <img class="weightloss-resize" src="assets/weight-loss.png" alt="" />
+</div>

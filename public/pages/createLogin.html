@@ -1,0 +1,37 @@
+ <!-- Login/Create Account, wight lift image credit:<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>  -->
+
+<div class="div-container">
+  <div class="createAccount">
+    <h4>
+      Don't Have an Account?<br />
+      Create One!
+    </h4>
+    <label for="fName">First Name:</label>
+    <input id="fName" type="text" />
+    <label for="lName">Last Name:</label>
+    <input id="lName" type="text" />
+    <label for="email">Email Address:</label>
+    <input id="email" type="email" />
+    <label for="pw">Password:</label>
+    <input id="pw" type="password" minlength="8" /> <br />
+    <!-- Button bound to Password input... same for login? -->
+    <button id="ca" onclick="createAccount(event)">Create Account</button>
+  </div>
+
+  <div class="weight-lift-png">
+    <!-- How it shows on Firebase -->
+    <!-- <img src="../assets/weight-lifting.png" > -->
+    <!-- How it shows Local -->
+    <img src="assets/weight-lifting.png" />
+  </div>
+
+  <div class="login">
+    <h4>Please Login!</h4>
+    <label for="email">Email Address:</label>
+    <input id="liemail" type="email" />
+    <label for="pw">Password:</label>
+    <input id="lipw" type="password" minlength="8" /> <br />
+
+    <button id="login" onclick="login()">Login</button>
+  </div>
+</div>

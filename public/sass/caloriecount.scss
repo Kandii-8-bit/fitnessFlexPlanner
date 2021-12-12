@@ -1,0 +1,105 @@
+.input-wrap {
+  //   background-color: white;
+  width: 800px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+
+  .addMeal {
+    // background-color: aqua;
+    width: 250px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+
+    .ca-input-style {
+      //   background-color: beige;
+      flex-direction: row;
+    }
+  }
+
+  .totalCal {
+    // background-color: aqua;
+    width: 250px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+
+    .ca-input-style {
+      //   background-color: beige;
+      flex-direction: row;
+    }
+  }
+}
+
+.meal-log-title {
+  //   background-color: yellowgreen;
+  width: 250px;
+  height: 25px;
+  color: white;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+table {
+  width: 1080px;
+  //   height: 100px;
+  background-color: yellowgreen;
+  margin-left: 100px;
+  border: solid white 4px;
+
+  tr {
+    background-color: white;
+    height: 50px;
+    width: fit-content;
+
+    td {
+      .edit-b-delete-b {
+        // background-color: blanchedalmond;
+        width: 110px;
+        height: 50px;
+        float: right;
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+}
+
+.total-cal-log {
+  width: 250px;
+  height: 25px;
+  color: white;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.scale-photo {
+  // background-color: blanchedalmond;
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+  margin-top: 200px;
+
+  .scale-resize {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 698px) {
+  table,
+  tr,
+  td {
+    width: 70%;
+  }
+
+  .input-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,169 @@
+.calorie-log {
+  width: 1080px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+
+  .calorie-log-txt {
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    .weekdays {
+      //   background-color: white;
+      //   width: 750px;
+      //   height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .day {
+        // background-color: yellowgreen;
+        width: 135px;
+        height: 100px;
+        margin-right: 30px;
+        flex-direction: row;
+        margin: 0 auto;
+        margin-right: 35px;
+        margin-left: 35px;
+
+        .mock-bar-one {
+          border-left: 15px solid white;
+          height: 156px;
+          position: absolute;
+          bottom: 48.3%;
+          left: 26.2%;
+        }
+
+        .mock-bar-two {
+          border-left: 15px solid white;
+          height: 126px;
+          position: absolute;
+          bottom: 48.3%;
+          // top: 37%;
+          left: 34%;
+        }
+
+        .mock-bar-three {
+          border-left: 15px solid white;
+          height: 168px;
+          position: absolute;
+          bottom: 48.3%;
+          // top: 37%;
+          left: 42.5%;
+        }
+
+        .mock-bar-four {
+          border-left: 15px solid white;
+          height: 65px;
+          position: absolute;
+          bottom: 48.3%;
+          // top: 37%;
+          left: 50.9%;
+        }
+
+        .mock-bar-five {
+          border-left: 15px solid white;
+          height: 100px;
+          position: absolute;
+          bottom: 48.3%;
+          // top: 37%;
+          left: 58.4%;
+        }
+
+        .mock-bar-six {
+          border-left: 15px solid white;
+          height: 35px;
+          position: absolute;
+          bottom: 48.3%;
+          // top: 37%;
+          left: 65.5%;
+        }
+
+        .mock-bar-seven {
+          border-left: 15px solid white;
+          height: 180px;
+          position: absolute;
+          bottom: 48.3%;
+          // top: 37%;
+          left: 73.3%;
+        }
+      }
+    }
+  }
+}
+
+.recipe-rec-title {
+  color: white;
+  margin-left: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.recipe-rec-wrap {
+  // background-color: pink;
+  width: 1080px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
+
+  .recipe-rec-one {
+    background-image: url(../assets/casey-lee-awj7sRviVXo-unsplash.jpg);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border: 2px solid white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .recipe-rec-two {
+    background-image: url(../assets/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg);
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border: 2px solid white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .recipe-rec-three {
+    background-image: url(../assets/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg);
+    height: 300px;
+    width: 250px;
+    border: 2px solid white;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.weightloss-photo {
+  // background-color: blanchedalmond;
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+  // margin-top: 50px;
+
+  .weightloss-resize {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 698px) {
+  // .calorie-log {
+  //   width: 100%;
+  // }
+}

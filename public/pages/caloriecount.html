@@ -1,0 +1,64 @@
+<div class="nav-wrapper">
+  <div class="profile">
+    Profile
+    <!-- mock link? -->
+    <a onclick="logout()">Logout</a>
+    <!-- This is a placeholder I believe this would be something through firebase.. grabbing prof pic etc. -->
+    <!-- Needs Logout button need to figure out how to style seperate -->
+    <!-- <button id="logout" onclick="logout()">Logout</button> -->
+  </div>
+  <nav>
+    <!-- Needs to be a Checkmark PNG on the Homepage link to indicate user is at that page -->
+    <div class="a-wrapper">
+      <div onclick="navLoadPage('home')">Homepage</div>
+      <!-- Needs to be spaced out more... -->
+      <!-- <div class="check-wrap">
+                    <img class="checkpng" src="assets/check-mark.png" alt="">
+                </div> -->
+    </div>
+    <div class="a-wrapper">
+      <div onclick="navLoadPage('caloriecount')">Calorie Counter</div>
+    </div>
+    <!-- <div class="a-wrapper">
+      <div onclick="navLoadPage('mealplan')">Meal Planner</div>
+    </div> -->
+  </nav>
+</div>
+<!-- navigation wrapper end -->
+
+<!-- input wrapper -->
+<div class="input-wrap">
+  <div class="addMeal">
+    <label for="addMeal">Add Meal:</label>
+    <div class="ca-input-style">
+      <input id="am" type="text" />
+    </div>
+  </div>
+  <div class="totalCal">
+    <label for="totalCal">Total Calories:</label>
+    <div class="ca-input-style">
+      <input id="tc" type="text" />
+    </div>
+  </div>
+  <button id="ca" onclick="addMeal()">Add</button>
+</div>
+
+<div class="meal-log-title">Meal Log:</div>
+
+<!-- Table with potential DIV wrapper for meal log etc. -->
+<table>
+  <tr>
+    <td>
+      <div class="edit-b-delete-b">
+        <img src="assets/pencil.png" alt="" />
+        <img src="assets/delete.png" alt="" />
+      </div>
+    </td>
+  </tr>
+</table>
+
+<div class="total-cal-log"></div>
+
+<div class="scale-photo">
+  <img class="scale-resize" src="assets/weighing-scale.png" alt="" />
+</div>
